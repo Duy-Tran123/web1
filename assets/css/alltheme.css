@@ -1,0 +1,16 @@
+.bg-primary{
+	background: var(--primary-color) !important;
+}
+.logo{
+	padding:0;
+	margin: 0;
+	line-height: 1;
+	font-size: 1rem
+}
+.site-main{padding:50px 0;}
+article{
+	margin-bottom: 20px;
+}
+a:hover{
+	text-decoration: none;
+}

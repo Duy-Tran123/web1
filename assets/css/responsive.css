@@ -1,0 +1,128 @@
+@media only screen and (min-width:350px) and (max-width: 767px){
+    .logo{
+        display:block;
+    }
+    img.logo {}
+
+    header .col-12 {
+        padding: 0;
+        margin: 0 0 0px 0;
+    }
+
+    header .logo {
+        margin: 0 0 15px 0;
+    }
+
+    .hotline {
+        text-align: left;
+        margin: 5px 0 0 0;
+    }
+
+    .content p {
+        line-height: 21px;
+    }
+
+    .content h2 {
+        color: white;
+        font-size: 20px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    section .vitri ul {
+    }
+
+    .map1 {
+        margin: 0;
+    }
+
+    .description {
+        padding: 10px 20px;
+    }
+
+    section.video {
+        padding: 10px 20px;
+    }
+
+    .matbang-col2 p {
+        margin: 10px 0 10px 0;
+    }
+
+    .button {
+        margin: 20px 0 20px 0;
+    }
+
+    .img-des {
+        line-height: 16px;
+    }
+
+    .chinhsach-left {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .tiendo-img img {/* display: none; */}
+
+    .row5 {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    section.lienhe .over-lay {
+        /* display: none; */
+    }
+
+    h3 {}
+
+    .row5 h3 {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 10px 0px 10px 15px;
+    }
+
+    .contact-col {
+        padding: 15px;
+    }
+
+    .col-5 {
+    }
+
+    .col-3 {padding: 4px 0px 0 0;}
+
+    .col-3 a i {
+        padding: 3px;
+    }
+    .contactus {
+    }
+
+    .contactus span {
+        margin: 0;
+    }
+
+    .modal1 {
+        bottom: 0;
+        border-radius: 5px;
+    }
+
+    .modal2 {
+        bottom: 0;
+        left: 156px;
+        border-radius: 5px;
+    }
+
+    .modal1 span {
+        font-size: 13px;
+    }
+
+    .modal2 span {
+        font-size: 13px;
+    }
+
+
+}
