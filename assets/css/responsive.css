@@ -63,7 +63,7 @@
         padding-bottom: 20px;
     }
 
-    .tiendo-img img {/* display: none; */}
+    .tiendo-img img {/* display: none; */margin: 0;}
 
     .row5 {
         position: relative;
@@ -76,7 +76,7 @@
         /* display: none; */
     }
 
-    h3 {}
+
 
     .row5 h3 {
         position: relative;
@@ -123,6 +123,39 @@
     .modal2 span {
         font-size: 13px;
     }
+    .modal-content ul li {
+        margin: 0;
+    }
+    .tiendo-img button {
+        margin: 30px 0 0 0;
+    }
+
+    .tiendo-img .play {
+        top: 39%;
+        font-size: 50px;
+    }
+    .img-gif i {
+    font-size: 50px;
+    }
+
+    section.video i {
+        font-size: 50px;
+    }
+
+    .vitri-img i {
+        font-size: 50px;
+    }
+
+    .chinhsach-img i {
+        font-size: 50px;
+    }
+    a.dropdown-item {
+    background: #1D305B;
+    border: none;
+    font-size: 14px;
+    }
+
+    .dropdown-item:focus, .dropdown-item:hover {background-color: #1D305B;}
 
 
 }
