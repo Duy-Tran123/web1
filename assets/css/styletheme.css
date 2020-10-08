@@ -874,13 +874,14 @@ section.video i {position: absolute;left: 50%;top: 50%;transform: translate(-50%
 .tienich-title {
     text-align: center;
     padding: 15px 10px 0 10px;
+    position: relative;
 }
 
 .tienich-title .des {color: #e39725;font-size: 1em;font-weight: 500;margin: 0;}
 
 .tienich-title h3 {
     font-size: 25px;
-    margin: .3em 0;
+    margin: 10px 0 20px 0;
     line-height: 1.2;
     color: #1D3560;
 }
@@ -1161,11 +1162,13 @@ section.lienhe .over-lay {
     transform: translate(-50%,-50%);
     color: white;
     text-transform: uppercase;
+    border-bottom: 3px solid;
 }
 
 .contact h3 {
     color: orange;
     position: relative;
+    border: none;
 }
 img.img6 {
     width: 100%;
@@ -1176,6 +1179,8 @@ section.thongtinduan h3 {
     font-weight: 600;
     color: #1977A8;
     margin: 20px 0 20px 0;
+    display: inline-block;
+    border-bottom: 3px solid;
 }
 .col-lg-4 a {
     font-size: 15px;
@@ -1387,3 +1392,5 @@ img.img21 {
 .popup h3 {
     font-size: 18px;
 }
+.tienich-title::after {top: 50%;position: absolute;content: '';width: 140px;height: 3px;background: red;left: 50%;transform: translate(-50%,-50%);}
+
